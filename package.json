@@ -1,0 +1,33 @@
+{
+  "name": "ximxim-test-task",
+  "version": "0.0.1",
+  "description": "Test task for js-developer position at XIMXIM",
+  "main": "index.js",
+  "scripts": {
+    "start": "PORT=8000 nodemon ./www"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.0.2",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "access-control": "^1.0.1",
+    "dayjs": "^1.11.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-fileupload": "^1.4.0",
+    "helmet": "^6.0.0",
+    "js-base64": "^3.7.2",
+    "js-yaml": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "pm2": "^5.2.0",
+    "randomstring": "^1.2.2",
+    "sequelize": "^6.21.4",
+    "unpc": "^1.1.2",
+    "validate": "^5.2.0"
+  }
+}

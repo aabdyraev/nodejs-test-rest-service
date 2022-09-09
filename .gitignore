@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+# VSCode files
+.vscode/
+
+# Temporary files dir
+tmp/
+
+# App config files
+app/config/*.yml
