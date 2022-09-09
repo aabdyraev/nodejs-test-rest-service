@@ -1,0 +1,5 @@
+auth:
+  secret: my_token_secret_string
+  refresh_secret: my_refresh_token_secret_string
+  expiration_interval: '600'
+  header_name: 'Authorization'

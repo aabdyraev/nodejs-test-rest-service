@@ -1,0 +1,5 @@
+auth:
+  secret: '[your secret salt]'
+  refresh_secret: '[another one secret salt]'
+  expiration_interval: '[session expiration time in seconds]'
+  header_name: '[AUTH header name]'

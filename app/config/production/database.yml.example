@@ -1,0 +1,6 @@
+adapter: 'mysql'
+host: '[DB host]'
+port: '[DB port]'
+username: '[DB username]'
+password: '[DB password]'
+database: '[DB name]'

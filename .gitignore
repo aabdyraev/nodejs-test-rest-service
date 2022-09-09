@@ -110,4 +110,5 @@ dist
 tmp/
 
 # App config files
-app/config/*.yml
+app/config/development/*.yml
+app/config/production/*.yml
