@@ -27,7 +27,8 @@ route.get('/list', validationMiddleware({
     }
   }), async (req, resp) => {
   try {
-    const {list_size: listSize = 10, page = 1} = req.query
+    const listSize = req.query.list_size || 10
+    const page = req.query.page || 1
 
     const files = await File.findAll({
       limit: Number(listSize),
